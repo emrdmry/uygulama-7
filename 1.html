@@ -1,7 +1,18 @@
 <html>
 <head>
 <script language="javascript">
-
+  var i=0;
+ -  var sayilar=new Array(5);
+ +  var sayilar= [];
+    function ekle()
+    {
+        
+  	  var sayi1=parseInt(window.document.forms.form1.TxtSayi.value);
+ -      if (i<5)
+ +  
+          { sayilar[i]=sayi1;
+           i+=1;  alert("Sayı Eklendi"); 
+  		 document.forms.form1.TxtSayi.value="";
 
 
 
